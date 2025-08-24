@@ -1,0 +1,50 @@
+body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; background: #f8f9fa; }
+.container { max-width: 900px; margin: auto; padding: 20px; }
+
+/* Header */
+header { background: linear-gradient(to right, #0062E6, #33AEFF); color: #fff; padding: 18px 0; box-shadow: 0 2px 8px rgba(0,0,0,.08); }
+header h1 { margin: 0; text-align: center; }
+nav { text-align: center; margin-top: 8px; display: flex; gap: 14px; justify-content: center; align-items: center; flex-wrap: wrap; }
+nav a { color: #fff; text-decoration: none; font-weight: 600; opacity: .95; }
+nav a:hover { opacity: 1; text-decoration: underline; }
+nav span { opacity: .9; }
+
+/* Footer */
+footer { background: #343a40; color: #ccc; padding: 14px 0; text-align: center; margin-top: 60px; }
+
+/* Flash */
+.flash { margin: 12px 0; padding: 10px 12px; border-radius: 6px; }
+.flash.success { background: #e6f4ea; color: #137333; }
+.flash.danger  { background: #fce8e6; color: #a50e0e; }
+.flash.info    { background: #e8f0fe; color: #174ea6; }
+
+/* Login */
+.login-box { max-width: 420px; margin: 36px auto; background: #fff; padding: 22px; border-radius: 10px; box-shadow: 0 4px 18px rgba(0,0,0,.06); }
+.form-group { margin-bottom: 14px; }
+.form-group label { display: block; margin-bottom: 6px; font-weight: 600; }
+.form-group input { width: 100%; padding: 10px 12px; border: 1px solid #d0d7de; border-radius: 8px; font-size: 15px; }
+
+/* Buttons */
+.btn { padding: 10px 16px; background: #007bff; color: #fff; border: none; border-radius: 8px; cursor: pointer; }
+.btn:hover { background: #0062cc; }
+.btn-small { padding: 6px 10px; border: none; border-radius: 6px; cursor: pointer; background: #6c757d; color: #fff; }
+.btn-small:hover { background: #545b62; }
+.btn-delete { background: #dc3545; }
+.btn-delete:hover { background: #c82333; }
+.btn-clear { background: #dc3545; }
+.btn-clear:hover { background: #c82333; }
+
+/* Tasks */
+.task-box { background: #fff; padding: 22px; border-radius: 10px; box-shadow: 0 4px 18px rgba(0,0,0,.06); margin: 32px auto; }
+.task-form { display: flex; gap: 10px; }
+.task-form input[type="text"] { flex: 1; padding: 10px 12px; border: 1px solid #d0d7de; border-radius: 8px; font-size: 15px; }
+.task-table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+.task-table th, .task-table td { padding: 12px; border-bottom: 1px solid #e9ecef; text-align: left; }
+.task-table th { background: #f6f8fa; }
+.actions { white-space: nowrap; display: flex; gap: 8px; }
+
+/* Status badges */
+.badge { padding: 4px 8px; border-radius: 6px; color: #fff; font-weight: 600; font-size: 12px; }
+.badge.pending { background: #ffc107; color: #3c2f00; }
+.badge.working { background: #17a2b8; }
+.badge.done    { background: #28a745; }
